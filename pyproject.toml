@@ -1,0 +1,23 @@
+[project]
+name = "research-writer-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.162.0",
+    "httpx>=0.28.1",
+    "langchain-core>=1.7.0",
+    "langchain-groq>=1.1.3",
+    "langgraph>=1.2.18",
+    "langgraph-checkpoint-sqlite>=3.1.2",
+    "markdown>=3.11.2",
+    "pydantic>=2.14.1",
+    "pytest>=9.2.0",
+    "python-dotenv>=1.2.4",
+    "reportlab>=5.1.0",
+    "sqlalchemy>=2.1.6",
+    "streamlit>=1.66.1",
+    "tavily-python>=0.8.5",
+    "uvicorn[standard]>=0.54.0",
+]

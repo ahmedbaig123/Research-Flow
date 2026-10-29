@@ -1,0 +1,16 @@
+
+langgraph
+langchain-core
+langchain-groq
+langgraph-checkpoint-sqlite
+fastapi
+uvicorn[standard]
+streamlit
+python-dotenv
+pydantic
+tavily-python
+sqlalchemy
+pytest
+httpx
+markdown
+reportlab
